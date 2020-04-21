@@ -9,30 +9,60 @@
     <title>La note enchantée - ohmyfood</title>
 
     <link href="node_modules/destyle.css/destyle.css" rel="stylesheet">
-    <link href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body id="menu01" class="menu01">
 
     <header>
         <a href="/">
-            <img src="logo.png" class="logo" alt="Ohmyfood">
+            <img src="assets/img/logo.png" class="logo" alt="Ohmyfood">
         </a>
-        <ul class="nav">
+        <ul id="menu" class="nav">
             <li><a class="nav-link" href="menu-la-note-enchantee.html">La note enchantée</a></li>
             <li><a class="nav-link" href="menu-le-chic-a-la-francaise.html">Le chic à la française</a></li>
             <li><a class="nav-link" href="menu-le-delice-des-papilles.html">Le délice des papilles</a></li>
             <li><a class="nav-link" href="menu-la-palette-du-gout.html">Le palette du goût</a></li>
         </ul>
+        <a id="mobile-menu" href="#"><span class="material-icons">menu</span></a>
     </header>
 
     <div class="container">
-        <section class="row">
-            <div class="menu">
+        <section class="row one-menu">
+            <div class="header-menu col-12">
+                <img src="assets/img/note-enchantee.png" alt="La note enchantée">
                 <h1>La note enchantée</h1>
-                <img src="menus/menu-1.png" class="menu1" alt="Menu 1">
+            </div>
+            <div class="section-menu col-12">
+                <h2>Prélude</h2>
+                <ul>
+                    <li>Ravioles de foie gras accompagnés de leur crème à la truffe <span>98€</span></li>
+                    <li>Caviar osciètre sur blini à la farine de blé noir <span>115€</span></li>
+                    <li>Homard et espuma de potiron mariné aux zests d'orange <span>89€</span></li>
+                    <li>Foie gras de canard cuit entier, configutre de figue et pain toasté <span>105€</span></li>
+                </ul>
+            </div>
+            <div class="section-menu col-12">
+                <h2>Point d'orgue</h2>
+                <ul>
+                    <li>Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave <span>102€</span></li>
+                    <li>Langoustine poêlée, purée de patate douce <span>205€</span></li>
+                    <li>Mijoté de queue de boeuf et riz sauvage aux zests de citron <span>169€</span></li>
+                </ul>
+            </div>
+            <div class="section-menu col-12">
+                <h2>Mouvement final</h2>
+                <ul>
+                    <li>Macaron noisette et chocoalt, glace au caramel brun et sel de Guérande</li>
+                    <li>Baba au rhum revisité avec son coulis de citron</li>
+                    <li>Tarte au citron meringuée destructuré</li>
+                </ul>
+            </div>
+            <div class="footer-menu col-12">
+                <img src="assets/img/note-enchantee.png" alt="La note enchantée">
+                <span>La note enchantée</span>
             </div>
         </section>
     </div>
@@ -44,7 +74,8 @@
                 href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6F%6E%74%61%63%74%40%6F%68%6D%79%2E%66%6F%6F%64">Contactez-nous</a>
         </div>
     </footer>
-
+    <div id="overlay" class="overlay"></div>
+    <script src="main.js"></script>
 </body>
 
 </html>

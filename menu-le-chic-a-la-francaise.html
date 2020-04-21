@@ -9,30 +9,54 @@
     <title>Le chic à la française - ohmyfood</title>
 
     <link href="node_modules/destyle.css/destyle.css" rel="stylesheet">
-    <link href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body id="menu02" class="menu02">
 
     <header>
         <a href="/">
-            <img src="logo.png" class="logo" alt="Ohmyfood">
+            <img src="assets/img/logo.png" class="logo" alt="Ohmyfood">
         </a>
-        <ul class="nav">
+        <ul id="menu" class="nav">
             <li><a class="nav-link" href="menu-la-note-enchantee.html">La note enchantée</a></li>
             <li><a class="nav-link" href="menu-le-chic-a-la-francaise.html">Le chic à la française</a></li>
             <li><a class="nav-link" href="menu-le-delice-des-papilles.html">Le délice des papilles</a></li>
             <li><a class="nav-link" href="menu-la-palette-du-gout.html">Le palette du goût</a></li>
         </ul>
+        <a id="mobile-menu" href="#"><span class="material-icons">menu</span></a>
     </header>
 
     <div class="container">
-        <section class="row">
-            <div class="menu">
+        <section class="row one-menu">
+            <div class="header-menu col-12">
                 <h1>Le chic à la française</h1>
-                <img src="menus/menu-2.png" class="menu2" alt="Le chic à la française">
+            </div>
+            <div class="section-menu col-12">
+                <h2>Pour se mettre en appétit</h2>
+                <ul>
+                    <li>Tartare de poulpe acidulé aux zests d'orange<span>79€</span></li>
+                    <li>Velouté de légumes d'antan<span>57€</span></li>
+                    <li>Soupe à l'oignon revisité<span>57€</span></li>
+                </ul>
+            </div>
+            <div class="section-menu section-menu-02 col-12">
+                <h2>Plaisir des papilles</h2>
+                <ul>
+                    <li>Coquilles Saint-Jacques accompagnées d'une purée de panais<span>95€</span></li>
+                    <li>Magret de canard et parmentier de pommes de terres<span>88€</span></li>
+                    <li>Pigeonneau d'Ille et Vilaine sur son lit de gnocchis aux légumes<span>169€</span></li>
+                </ul>
+            </div>
+            <div class="section-menu section-menu-03 col-12">
+                <h2>Gourmandises sucrées</h2>
+                <ul>
+                    <li>Pétales de violettes glacés et purée de noisettes</li>
+                    <li>Fondant au chocolat revisité</li>
+                    <li>Millefeuille croustillant</li>
+                </ul>
             </div>
         </section>
     </div>
@@ -44,7 +68,8 @@
                 href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6F%6E%74%61%63%74%40%6F%68%6D%79%2E%66%6F%6F%64">Contactez-nous</a>
         </div>
     </footer>
-
+    <div id="overlay" class="overlay"></div>
+    <script src="main.js"></script>
 </body>
 
 </html>

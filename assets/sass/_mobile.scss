@@ -42,6 +42,16 @@ img {
     padding-bottom: 30px;
 }
 
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
 .flex {
     display: flex;
     flex-direction: row;
@@ -89,13 +99,13 @@ img {
 header {
     position: relative;
     background-color: $primaryColor;
-    padding: 2rem 0;
+    padding: 3rem 0;
 
     .logo {
         display: block;
-        height: auto;
-        width: 350px;
-        margin: 0 auto 2rem;
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 1.5rem;
     }
 }
 
@@ -146,7 +156,6 @@ header {
 }
 
 /*menus*/
-
 .menus {
     margin: 1rem 0;
 }
@@ -177,6 +186,80 @@ header {
         box-shadow: 0 3px 10px rgba(0,0,0, .08);
     }
 }
+
+.one-menu {
+    background-color: #fcdfdb;
+    padding: 2rem 1rem;
+
+    h2 {
+        position: relative;
+        font-size: 1.7rem;
+        text-align: center;
+        margin-bottom: 3rem;
+        transition: all 2s ease-in;
+        background: linear-gradient(to left, transparent 50%, rgba($linkColor, .5) 5%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all 1s ease;
+
+
+        &:hover {
+            background-position: left bottom;
+        }
+    }
+
+    ul {
+        margin-bottom: 5rem;
+
+        li {
+            position: relative;
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            margin: 0 auto 1.5rem;
+            text-align: justify;
+
+            span {
+                display: block;
+                text-align: center;
+                font-weight: bold;
+                margin-top: .5rem;
+            }
+        }
+    }
+
+    .header-menu {
+        margin: 0 auto 2rem;
+        text-align: center;
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        img {
+            width: 120px;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .footer-menu {
+        margin: 0 auto 2rem;
+        text-align: center;
+
+        img {
+            width: 80px;
+        }
+
+        span {
+            font-size: 1.7rem;
+            vertical-align: middle;
+        }
+
+    }
+}
+
+.menu02 .one-menu {background-color: #fff5fe;}
+.menu03 .one-menu {background-color: #edefef;}
+.menu04 .one-menu {background-color: #fdfffd;}
 
 /*prochainement*/
 .soon {
@@ -224,5 +307,11 @@ footer {
         &:hover {
             animation: none;
         }
+    }
+}
+
+.mentions-legales {
+    .text {
+        padding: 0 1.5rem;
     }
 }
