@@ -305,7 +305,7 @@ footer {
     .one-menu h2:before, .one-menu h2:after {
       content: "";
       display: block;
-      background-image: url("http://crios/oc_developpeur_web/03_anims_css/assets/img/border-01.png");
+      background-image: url("assets/img/border-01.png");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -316,7 +316,7 @@ footer {
       bottom: 0;
       left: 0; }
     .one-menu h2:after {
-      background-image: url("http://crios/oc_developpeur_web/03_anims_css/assets/img/border-02.png");
+      background-image: url("assets/img/border-02.png");
       right: 0;
       left: initial; }
     .one-menu ul li {
@@ -329,23 +329,23 @@ footer {
         right: 0;
         margin: 0; }
   .menu02 .one-menu h2::before {
-    background-image: url("http://crios/oc_developpeur_web/03_anims_css/assets/img/border-03.png"); }
+    background-image: url("assets/img/border-03.png"); }
   .menu02 .one-menu .section-menu-02 h2::before {
-    background-image: url("http://crios/oc_developpeur_web/03_anims_css/assets/img/border-03a.png"); }
+    background-image: url("assets/img/border-03a.png"); }
   .menu02 .one-menu .section-menu-02 h2::after {
-    background-image: url("http://crios/oc_developpeur_web/03_anims_css/assets/img/border-04a.png"); }
+    background-image: url("assets/img/border-04a.png"); }
   .menu02 .one-menu .section-menu-03 h2::before {
-    background-image: url("http://crios/oc_developpeur_web/03_anims_css/assets/img/border-04b.png"); }
+    background-image: url("assets/img/border-04b.png"); }
   .menu02 .one-menu .section-menu-03 h2::after {
-    background-image: url("http://crios/oc_developpeur_web/03_anims_css/assets/img/border-03b.png"); }
+    background-image: url("assets/img/border-03b.png"); }
   .menu02 .one-menu h2::after {
-    background-image: url("http://crios/oc_developpeur_web/03_anims_css/assets/img/border-04.png"); }
+    background-image: url("assets/img/border-04.png"); }
   .menu03 .one-menu h2::before {
-    background-image: url("http://crios/oc_developpeur_web/03_anims_css/assets/img/border-05.png"); }
+    background-image: url("assets/img/border-05.png"); }
   .menu03 .one-menu h2::after {
-    background-image: url("http://crios/oc_developpeur_web/03_anims_css/assets/img/border-06.png"); }
+    background-image: url("assets/img/border-06.png"); }
   .menu04 .one-menu h2::before {
-    background-image: url("http://crios/oc_developpeur_web/03_anims_css/assets/img/border-07.png"); }
+    background-image: url("assets/img/border-07.png"); }
   .menu04 .one-menu h2::after {
-    background-image: url("http://crios/oc_developpeur_web/03_anims_css/assets/img/border-08.png"); } }
+    background-image: url("assets/img/border-08.png"); } }
 
