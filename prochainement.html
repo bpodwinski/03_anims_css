@@ -2,30 +2,29 @@
 <html lang="fr">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Prochainement - ohmyfood</title>
 
-    <link href="node_modules/destyle.css/destyle.css" rel="stylesheet">
-    <link href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body id="prochainement" class="prochainement">
 
     <header>
-        <a href="/">
-            <img src="logo.png" class="logo" alt="Ohmyfood">
+        <a href="">
+            <img src="assets/img/logo.png" class="logo" alt="Ohmyfood">
         </a>
-        <ul class="nav">
+        <ul id="menu" class="nav">
             <li><a class="nav-link" href="menu-la-note-enchantee.html">La note enchantée</a></li>
             <li><a class="nav-link" href="menu-le-chic-a-la-francaise.html">Le chic à la française</a></li>
             <li><a class="nav-link" href="menu-le-delice-des-papilles.html">Le délice des papilles</a></li>
             <li><a class="nav-link" href="menu-la-palette-du-gout.html">Le palette du goût</a></li>
         </ul>
+        <a id="mobile-menu" href="#"><span class="material-icons">menu</span></a>
     </header>
 
     <div class="container">
@@ -41,7 +40,8 @@
                 href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6F%6E%74%61%63%74%40%6F%68%6D%79%2E%66%6F%6F%64">Contactez-nous</a>
         </div>
     </footer>
-
+    <div id="overlay" class="overlay"></div>
+    <script src="main.js"></script>
 </body>
 
 </html>

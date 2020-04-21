@@ -750,6 +750,11 @@ footer {
     footer a:hover {
       animation: none; }
 
+.mentions-legales h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto 2rem; }
+
 .mentions-legales .text {
   padding: 0 1.5rem; }
 
