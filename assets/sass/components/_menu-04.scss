@@ -13,6 +13,7 @@
     h2.menu-home-title {
         background: -webkit-linear-gradient(left, #3d923a, #bcfd7e);
         background-clip: text;
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
         span {

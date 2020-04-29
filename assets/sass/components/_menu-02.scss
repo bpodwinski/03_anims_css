@@ -9,6 +9,7 @@
     h2.menu-home-title {
         background: -webkit-linear-gradient(left, #e38913, #8f5bfe);
         background-clip: text;
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
         span {

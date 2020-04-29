@@ -894,6 +894,7 @@ header {
 .menu02 h2.menu-home-title {
   background: -webkit-linear-gradient(left, #e38913, #8f5bfe);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
   .menu02 h1 span,
   .menu02 h2.menu-home-title span {
@@ -926,6 +927,7 @@ header {
 .menu03 h2.menu-home-title {
   background: -webkit-linear-gradient(left, #001ed9, #0889fb);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
   .menu03 h1 span,
   .menu03 h2.menu-home-title span {
@@ -943,6 +945,7 @@ header {
 .menu04 h2.menu-home-title {
   background: -webkit-linear-gradient(left, #3d923a, #bcfd7e);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
   .menu04 h1 span,
   .menu04 h2.menu-home-title span {
