@@ -1,0 +1,23 @@
+.homepage .menu01 a {
+    background-color: #fcdfdb;
+}
+
+.menu01 {
+
+    .menu01 a {background-color: #fcdfdb;}
+
+    h1,
+    h2.menu-home-title {
+        color: #3d1319;
+
+        span {
+            -webkit-text-fill-color: #3d1319;
+            color: #3d1319;
+        }
+    }
+
+    h2 span,
+    .section-menu {
+        color: #3d1319;
+    }
+}

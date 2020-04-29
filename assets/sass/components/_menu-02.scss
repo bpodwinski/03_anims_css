@@ -1,0 +1,43 @@
+.homepage .menu02 a,
+.menu02 .one-menu {
+    background-color: #fff5fe;
+}
+
+.menu02 {
+
+    h1,
+    h2.menu-home-title {
+        background: -webkit-linear-gradient(left, #e38913, #8f5bfe);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        span {
+            -webkit-text-fill-color: #e38913;
+            color: #e38913;
+        }
+    }
+
+    .section-menu {
+        color: #c67412;
+
+        span:before {
+            background-color: #c67412;
+        }
+    }
+
+    .section-menu-02 {
+        color: #a56799;
+
+        span:before {
+            background-color: #a56799;
+        }
+    }
+
+    .section-menu-03 {
+        color: #6e4ccc;
+
+        span:before {
+            background-color: #6e4ccc;
+        }
+    }
+}

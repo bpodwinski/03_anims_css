@@ -1,0 +1,85 @@
+::selection {
+    background-color: $primaryColor;
+    color: $linkColor;
+    -webkit-text-fill-color: $linkColor;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+}
+
+a {
+    color: $linkColor;
+    transition: all .3s ease-in;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 2rem auto 8rem;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+
+    @media (min-width: 768px) {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start;
+    margin: 0 0 2rem;
+}
+
+.button {
+    background-color: $primaryColor;
+    padding: .8rem 1.2rem;
+    border-radius: 4px;
+    font-weight: bold;
+
+    &:hover {
+        background-color: lighten($primaryColor, 10%);
+        color: lighten($linkColor, 5%);
+    }
+}

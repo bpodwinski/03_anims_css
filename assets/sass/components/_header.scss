@@ -1,0 +1,12 @@
+header {
+    position: relative;
+    background-color: $primaryColor;
+    padding: 3rem 0;
+
+    .logo {
+        display: block;
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 1.5rem;
+    }
+}

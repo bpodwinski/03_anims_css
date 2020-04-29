@@ -14,44 +14,59 @@
 <body id="homepage" class="homepage">
 
     <header>
-        <a href="https://bpodwinski.github.io/03_anims_css/">
-            <img src="assets/img/logo.png" class="logo" alt="Ohmyfood">
-        </a>
-        <ul id="menu" class="nav">
-            <li><a class="nav-link" href="menu-la-note-enchantee.html">La note enchantée</a></li>
-            <li><a class="nav-link" href="menu-le-chic-a-la-francaise.html">Le chic à la française</a></li>
-            <li><a class="nav-link" href="menu-le-delice-des-papilles.html">Le délice des papilles</a></li>
-            <li><a class="nav-link" href="menu-la-palette-du-gout.html">Le palette du goût</a></li>
-        </ul>
+        <h1>
+            <a class="logo" href="index.html">
+                <img src="assets/img/logo.png" class="logo" alt="Logo" title="Ohmyfood">
+            </a>
+        </h1>
+        <nav id="menu" class="nav">
+            <ul>
+                <li><a class="nav-link" href="menu-la-note-enchantee.html">La note enchantée</a></li>
+                <li><a class="nav-link" href="menu-le-chic-a-la-francaise.html">Le chic à la française</a></li>
+                <li><a class="nav-link" href="menu-le-delice-des-papilles.html">Le délice des papilles</a></li>
+                <li><a class="nav-link" href="menu-la-palette-du-gout.html">Le palette du goût</a></li>
+            </ul>
+        </nav>
         <a id="mobile-menu" href="#"><span class="material-icons">menu</span></a>
     </header>
 
     <div class="container">
         <div class="row menus">
-            <div class="col menu">
+            <div class="col menu menu01">
                 <a href="menu-la-note-enchantee.html">
-                    <img src="menus/menu-1b.png" class="menu1" alt="Menu 1">
+                    <div>
+                        <img src="assets/img/note-enchantee.png" alt="La note enchantée - Logo">
+                        <h2 class="menu-home-title">La note enchantée
+                            <span>Menu</span>
+                        </h2>
+                    </div>
                 </a>
             </div>
-            <div class="col menu">
+            <div class="col menu menu02">
                 <a href="menu-le-chic-a-la-francaise.html">
-                    <img src="menus/menu-2b.png" class="menu1" alt="Menu 1">
+                    <h2 class="menu-home-title">Le chic à la française
+                        <span>Menu</span>
+                    </h2>
                 </a>
             </div>
-            <div class="col menu">
+            <div class="col menu menu03">
                 <a href="menu-le-delice-des-papilles.html">
-                    <img src="menus/menu-3b.png" class="menu1" alt="Menu 1">
+                    <h2 class="menu-home-title">Le délice des papilles
+                        <span>Menu</span>
+                    </h2>
                 </a>
             </div>
-            <div class="col menu">
+            <div class="col menu menu04">
                 <a href="menu-la-palette-du-gout.html">
-                    <img src="menus/menu-4b.png" class="menu1" alt="Menu 1">
+                    <h2 class="menu-home-title">La palette du goût
+                        <span>Menu</span>
+                    </h2>
                 </a>
             </div>
         </div>
 
         <div class="flex">
-            <a class="button" href="prochainement.html">Prochainement</a>
+            <a class="button soon" href="#">Prochainement</a>
         </div>
     </div>
 

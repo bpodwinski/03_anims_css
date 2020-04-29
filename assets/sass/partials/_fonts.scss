@@ -1,0 +1,75 @@
+@import url("//fonts.googleapis.com/css?family=Leckerli+One|Open+Sans");
+@import url("//fonts.googleapis.com/css?family=Croissant+One|Dancing+Script|Devonshire|Kalam|Kaushan+Script|Schoolbell");
+@import url("//fonts.googleapis.com/css?family=Merriweather|Roboto+Slab");
+@import url("//fonts.googleapis.com/css?family=Frank+Ruhl+Libre");
+
+.menu01 {
+
+    h1,
+    .footer-menu span {
+        font-family: 'Devonshire', cursive, sans-serif;
+    }
+
+    h2,
+    .one-menu li {
+        font-family: 'Segoe Print', sans-serif;
+    }
+
+    .menu-home-title {
+        font-family: 'Devonshire', cursive, sans-serif;
+
+        span {
+            font-family: 'Segoe Print', sans-serif;
+        }
+    }
+}
+
+.menu02 {
+
+    h1 {
+        font-family: 'Croissant one', cursive, sans-serif;
+    }
+
+    h2 {
+        font-weight: bold;
+    }
+
+    h2,
+    .one-menu li {
+        font-family: 'Roboto Slab', sans-serif;
+    }
+
+    .menu-home-title {
+        font-family: 'Croissant one', cursive, sans-serif;
+
+        span {
+            font-family: 'Frank Ruhl Libre', serif;
+        }
+    }
+}
+
+.menu03 {
+
+    h1 {
+        font-family: 'Dancing Script', cursive, sans-serif;
+    }
+
+    h2,
+    .one-menu li {
+        font-family: 'Segoe Print', sans-serif;
+    }
+}
+
+.menu04 {
+
+    h1,
+    .menu-home-title {
+        font-family: 'Kaushan Script', cursive, sans-serif;
+    }
+
+    .menu-home-title span,
+    h2,
+    .one-menu li {
+        font-family: 'Segoe Print', sans-serif;
+    }
+}

@@ -1,0 +1,23 @@
+.homepage .menu03 a,
+.menu03 .one-menu {
+    background-color: #edefef;
+}
+
+.menu03 {
+
+    h1 {
+        font-size: 5rem !important;
+    }
+
+    h1,
+    h2.menu-home-title {
+        background: -webkit-linear-gradient(left, #001ed9, #0889fb);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        span {
+            -webkit-text-fill-color: #0889fb;
+            color: #0889fb;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: $primaryColor;
+    padding: 1rem 0;
+    font-weight: bold;
+
+    .container {
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-content: stretch;
+        align-items: flex-start;
+
+        .mentions-legales {
+
+            h1 {
+                font-size: 2rem;
+                text-align: center;
+                margin: 0 auto 2rem;
+            }
+            .text {
+                padding: 0 1.5rem;
+            }
+        }
+    }
+
+    a {
+        animation: shake .5s;
+        animation-iteration-count: infinite;
+
+        &:hover {
+            animation: none;
+        }
+    }
+}
