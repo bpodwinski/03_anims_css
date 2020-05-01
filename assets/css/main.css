@@ -838,13 +838,26 @@ header .logo {
   }
 }
 
-#mobile-menu {
-  position: absolute;
-  right: 1rem;
-  bottom: .5rem;
+#mobile-menu-wrapper.sticky {
+  z-index: 9;
+  background-color: #579c87;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
 }
 
-#mobile-menu span {
+#mobile-menu-wrapper.sticky #mobile-menu {
+  top: .35rem;
+}
+
+#mobile-menu-wrapper #mobile-menu {
+  position: absolute;
+  right: 1rem;
+}
+
+#mobile-menu-wrapper #mobile-menu span {
   font-size: 2.5rem;
 }
 
