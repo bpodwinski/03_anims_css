@@ -96,6 +96,8 @@
 let mobileMenu = document.getElementById("mobile-menu")
 let menu = document.getElementById("menu")
 let overlay = document.getElementById("overlay")
+let header = document.getElementById("mobile-menu-wrapper");
+let sticky = header.offsetTop;
 
 mobileMenu.addEventListener('click', function toggleMenu() {
     menu.classList.toggle("active")
@@ -107,17 +109,9 @@ overlay.addEventListener('click', function overlay() {
     this.classList.remove("active")
 })
 
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {stickyMenu()};
 
-// Get the header
-var header = document.getElementById("mobile-menu-wrapper");
-
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
+function stickyMenu() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
   } else {
